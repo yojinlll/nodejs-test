@@ -27,7 +27,7 @@ myButton.addEventListener('click',(e)=>{
         '/xxx',
         'post',
         'a=1&b=2',
-        (responseText)=>{console.log(1)},y
+        (responseText)=>{console.log(1)}
         (request)=>{console.log(2)}
     )
 })
